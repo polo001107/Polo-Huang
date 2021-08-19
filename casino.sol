@@ -1,7 +1,7 @@
-pragma solidity ^0.4.11;
+pragma solidity ^0.4.22;
 
-import "github.com/oraclize/ethereum-api/oraclizeAPI.sol";
-
+//import "github.com/oraclize/ethereum-api/oraclizeAPI.sol";
+import "./oraclizeAPI_0.4.sol";
 /// @title Contract to bet Ether for a number and win randomly when the number of bets is met.
 /// @author Merunas Grincalaitis
 contract Casino is usingOraclize {
